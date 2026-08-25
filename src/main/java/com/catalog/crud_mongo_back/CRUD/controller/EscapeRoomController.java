@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4300", "https://danielamora13.github.io/catalog-front/"})
 @RequestMapping("/escape-room")
 public class EscapeRoomController {
 
