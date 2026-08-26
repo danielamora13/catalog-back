@@ -13,6 +13,7 @@ public class BookMapper {
                 .name(dto.getName())
                 .author(dto.getAuthor())
                 .year(dto.getYear())
+                .image(dto.getImage())
                 .synopsis(dto.getSynopsis())
                 .comment(dto.getComment())
                 .build();
@@ -23,6 +24,7 @@ public class BookMapper {
                 .name(dto.getName())
                 .author(dto.getAuthor())
                 .year(dto.getYear())
+                .image(dto.getImage())
                 .synopsis(dto.getSynopsis())
                 .comment(dto.getComment())
                 .build();

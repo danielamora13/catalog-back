@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import java.net.URI;
 
 @Data
 @NoArgsConstructor
@@ -19,6 +20,7 @@ public class Book {
     private String name;
     private String author;
     private Integer year;
+    private URI image;
     private String synopsis;
     private String comment;
 }
