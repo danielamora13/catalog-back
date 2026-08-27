@@ -14,6 +14,10 @@ public class EscapeRoomMapper {
                 .date(dto.getDate())
                 .city(dto.getCity())
                 .photo(dto.getPhoto())
+                .synopsis(dto.getSynopsis())
+                .numPeople(dto.getNumPeople())
+                .difficulty(dto.getDifficulty())
+                .time(dto.getTime())
                 .description(dto.getDescription())
                 .build();
     }
@@ -24,6 +28,10 @@ public class EscapeRoomMapper {
                 .date(dto.getDate())
                 .city(dto.getCity())
                 .photo(dto.getPhoto())
+                .synopsis(dto.getSynopsis())
+                .numPeople(dto.getNumPeople())
+                .difficulty(dto.getDifficulty())
+                .time(dto.getTime())
                 .description(dto.getDescription())
                 .build();
     }

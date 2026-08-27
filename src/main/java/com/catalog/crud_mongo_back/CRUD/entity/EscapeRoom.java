@@ -24,5 +24,9 @@ public class EscapeRoom {
     private Date date;
     private String city;
     private URI photo;
+    private String synopsis;
+    private int numPeople;
+    private String difficulty;
+    private int time;
     private String description;
 }
